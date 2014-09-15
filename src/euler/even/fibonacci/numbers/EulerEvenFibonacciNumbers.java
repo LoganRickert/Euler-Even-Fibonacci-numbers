@@ -19,11 +19,11 @@ public class EulerEvenFibonacciNumbers {
     public static void main(String[] args) {
         
         // Inital variables
-        final long endNumber = 4000000;
-        long currentNumber = 1;
-        long currentNumberBefore = 0;
-        long currentTemp;
-        long currentAmount = 0;
+        final int endNumber = 4000000;
+        int currentNumber = 1;
+        int currentNumberBefore = 0;
+        int currentTemp;
+        int currentAmount = 0;
         
         // Check to make sure we don't go too far.
         while(currentNumber < endNumber){
